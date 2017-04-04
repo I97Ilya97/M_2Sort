@@ -8,6 +8,7 @@ void my_sort(IT first, IT last) {
 
 
 	IT last_r = last, first_r = first;
+	if(last<first)
 	{
 		return;
 	}
